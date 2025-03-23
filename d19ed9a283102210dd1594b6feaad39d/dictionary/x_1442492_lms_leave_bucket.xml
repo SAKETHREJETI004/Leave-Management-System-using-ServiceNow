@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c1a5a56e83102210dd1594b6feaad3ba" label="Leave Bucket" max_length="40" name="x_1442492_lms_leave_bucket" type="collection">
+        <element label="Taken" max_length="40" name="taken" type="float"/>
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element label="Balance" max_length="40" name="balance" type="float"/>
+        <element choice="1" choice_field="leave_type" choice_table="x_1442492_lms_leave_request" label="Leave Type" max_length="40" name="leave_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="WFH" sequence="3" value="wfh"/>
+                <element inactive_on_update="false" label="Earned Leave" sequence="1" value="EL"/>
+                <element inactive_on_update="false" label="Casual Leave" sequence="0" value="CL"/>
+                <element inactive_on_update="false" label="Sick Leave" sequence="2" value="SL"/>
+            </choice>
+        </element>
+        <element label="Accrued" max_length="40" name="accrued" type="float"/>
+        <element label="Last Year Balance" max_length="40" name="last_year_balance" type="float"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>
