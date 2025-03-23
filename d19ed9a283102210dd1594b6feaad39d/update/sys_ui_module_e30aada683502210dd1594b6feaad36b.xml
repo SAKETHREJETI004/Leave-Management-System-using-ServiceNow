@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Leave Management System">8a76ad6283502210dd1594b6feaad3e8</application>
+        <filter/>
+        <name>Leave Calculators</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1442492_lms.leave_calculator_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-18 09:13:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e30aada683502210dd1594b6feaad36b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave Calculators</sys_name>
+        <sys_package display_value="Leave Management System" source="x_1442492_lms">d19ed9a283102210dd1594b6feaad39d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">d19ed9a283102210dd1594b6feaad39d</sys_scope>
+        <sys_update_name>sys_ui_module_e30aada683502210dd1594b6feaad36b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-18 09:13:52</sys_updated_on>
+        <table>x_1442492_lms_leave_calculator</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
